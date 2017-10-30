@@ -1,8 +1,8 @@
 version: '3'
 services:
   workstation:
-    image: inspec_workstation
+    image: adamleff/inspec_workstation
     links:
       - target:target
   target:
-    image: inspec_target
+    image: adamleff/inspec_target
